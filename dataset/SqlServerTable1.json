@@ -1,0 +1,58 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "CIRCUIT_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CIRCUIT_REFERENCE",
+				"type": "varchar"
+			},
+			{
+				"name": "NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "LOCATION",
+				"type": "varchar"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "varchar"
+			},
+			{
+				"name": "LATITUDE",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ALTITUDE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CREATE_DATE",
+				"type": "date"
+			},
+			{
+				"name": "LONGITUDE",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "RACE_WORLD",
+			"table": "CIRCUITS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

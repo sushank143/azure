@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Practice-insurance",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bedc8a28-07fb-43c5-82bc-e396984de8c8",
+		"tenantId": "16bf6ef8-fa57-4358-b206-4c3b5b139629"
+	}
+}
